@@ -1,0 +1,23 @@
+.map_selector_container {
+    --map_hover_color: #4F46E5;
+    --map_actived_color: #4F46E5;
+}
+
+.map_selector_container #map path {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+    stroke: #000;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    cursor: pointer
+}
+
+.map_selector_container #map path:hover {
+    fill: var(--map_hover_color);
+}
+
+.map_selector_container #map path.actived_province {
+    fill: var(--map_actived_color);
+}
