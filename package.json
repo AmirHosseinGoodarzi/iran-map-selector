@@ -1,6 +1,6 @@
 {
   "name": "iran-map-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple component for province select in Iran map built with Reactjs",
   "main": "MapSelector.js",
   "scripts": {
