@@ -1,6 +1,6 @@
 # iran-map-selector
 
-a simple library for province select in Iran map.`React js`.
+a simple component for province select in Iran map built with `React js`.
 
 <div align="center">
   <img src="./screenshot.png" alt="iran-map-selector"/>

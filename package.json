@@ -1,0 +1,50 @@
+{
+  "name": "iran-map-selector",
+  "version": "1.0.0",
+  "description": "a simple component for province select in Iran map built with Reactjs",
+  "main": "MapSelector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirHosseinGoodarzi/iran-map-selector.git"
+  },
+  "keywords": [
+    "map-selector",
+    "province-selector",
+    "iran-province-selector",
+    "iran-map-selector",
+    "iran",
+    "map"
+  ],
+  "author": "Amihossein Goodarzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmirHosseinGoodarzi/iran-map-selector/issues"
+  },
+  "homepage": "https://github.com/AmirHosseinGoodarzi/iran-map-selector#readme",
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/cli": "^7.17.10",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-preset-env": "^1.7.0"
+  },
+  "contributors": [
+    "AmirHosseinGoodarzi (https://github.com/AmirHosseinGoodarzi)"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-jsx"
+    ]
+  }
+}
